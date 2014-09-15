@@ -283,10 +283,10 @@ if (API.enabled && $("#radiantscript-css").length <= 0) {
 
     }           
 
-    console.log('Loaded Exécito da zoeira v' + radiantScript.version);       
-    radiantScript.addChatLog('Exécito da zoeira Script v' + radiantScript.version, 'aqua');
-    radiantScript.addChatLog(' Atualizado apenas editado e modificado por !Cret?n?)', 'orange'); 
-    API.chatLog('plugCubed não incluído!',true);  
+    console.log('Loaded Radiant Script v' + radiantScript.version);       
+    radiantScript.addChatLog('Running Radiant Script v' + radiantScript.version, 'aqua');
+    radiantScript.addChatLog('Updated Chatlog in Console (Fixed Emoji and URL <html> problems)', 'orange'); 
+    API.chatLog('plugCubed not included!',true);  
     radiantScript.init();  
     var plugCubed;
     var content1 = '<section id="radiantscript">\
@@ -355,12 +355,12 @@ if (API.enabled && $("#radiantscript-css").length <= 0) {
     $('#checkbox-fullscreen').on('click', function() { radiantScript.toggleFullScreen();  }); 
     $('#checkbox-showmehs').on('click', function() { radiantScript.toggleMehShow();  }); 
 
-    $('#rmFacebook').on('click', function() { window.open('https://www.facebook.com/groups/843768588974745/');  });
-    $('#rmTwitter').on('click', function() { window.open('https://www.facebook.com/groups/843768588974745/');  });
-    $('#rmSite').on('click', function() { window.open('https://www.facebook.com/groups/843768588974745/');  });
-    $('#rmCmd').on('click', function() { window.open('https://www.facebook.com/groups/843768588974745/');  });
-    $('#rmBlacklist').on('click', function() { window.open('https://www.facebook.com/groups/843768588974745/');  });
-    $('#rmRules').on('click', function() { window.open('https://www.facebook.com/groups/843768588974745/');  });
+    $('#rmFacebook').on('click', function() { window.open('https://facebook.com/RadiantEDM');  });
+    $('#rmTwitter').on('click', function() { window.open('https://twitter.com/RadiantEDM');  });
+    $('#rmSite').on('click', function() { window.open('https://radiant.dj/');  });
+    $('#rmCmd').on('click', function() { window.open('http://ltebt.com/s/cmd');  });
+    $('#rmBlacklist').on('click', function() { window.open('http://ltebt.com/s/all');  });
+    $('#rmRules').on('click', function() { window.open('http://ltebt.com/s/rules');  });
     
     $('#fullscreenDisable').on('click', function() { $('#checkbox-fullscreen').click(); });
     $('#fullscreenDisable').on('mouseover', function() { $('#fullscreenDisable').addClass('highlight'); }); 
